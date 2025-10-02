@@ -1,0 +1,102 @@
+<!--
+Portfolio: Subnarulloh
+File: portfolio_subnarulloh.html
+Instructions:
+1) This is a single-file, responsive portfolio. Save as `index.html`.
+2) To publish quickly:
+   - GitHub Pages: create a repo, upload index.html, enable Pages -> serve from main branch. URL: https://<your-github-username>.github.io/<repo-name>/
+   - Netlify: drag & drop this file to app.netlify.com/drop -> you'll get a netlify.app URL.
+   - GitHub user site: name repo <your-github-username>.github.io and upload index.html -> URL: https://<your-github-username>.github.io/
+   - Google Drive / Google Sites: copy content into a Google Site or host the file and share link.
+3) Replace placeholder project entries and contact info before publishing.
+-->
+
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portfolio — Subnarulloh</title>
+  <meta name="description" content="Portfolio Subnarulloh — S1 PGSD | Background IT | Skills: MS Office, Canva, Public Speaking">
+  <style>
+    :root{--accent:#0b5cff;--bg:#f7fafc;--card:#ffffff;--muted:#6b7280}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#0f172a}
+    .container{max-width:900px;margin:36px auto;padding:24px}
+    header{display:flex;gap:16px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:24px}
+    p.lead{margin:8px 0 0;color:var(--muted)}
+    .card{background:var(--card);border-radius:12px;padding:18px;margin-top:18px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{padding:6px 10px;border-radius:999px;border:1px solid #e6eefc;font-size:13px}
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+    .project{padding:12px;border-radius:10px;border:1px solid #eef2ff;background:#fff}
+    footer{margin-top:20px;text-align:center;color:var(--muted);font-size:14px}
+    a.cta{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    @media (max-width:520px){header{flex-direction:row} .avatar{width:72px;height:72px;font-size:22px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">SS</div>
+      <div>
+        <h1>Subnarulloh</h1>
+        <p class="lead">S1 PGSD — Universitas Islam 45 Bekasi | Background: SMK Teknik Komputer &amp; Jaringan</p>
+        <p style="margin:8px 0 0;color:var(--muted);font-size:14px">Skills: IT, Microsoft Word &amp; Excel, Canva, Public Speaking, Marketing</p>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2 style="margin-top:0">About Me</h2>
+      <p>I am a recent graduate in Primary School Teacher Education (PGSD) from Universitas Islam 45 Bekasi with a vocational background in Computer and Network Engineering. I combine pedagogical knowledge with practical IT skills to design effective learning experiences and support digital workflows in schools or education projects.</p>
+      <p style="margin:8px 0 0"><a href="#contact" class="cta">Contact Me</a></p>
+    </section>
+
+    <section class="card">
+      <h2 style="margin-top:0">Skills</h2>
+      <div class="skills">
+        <span class="skill">Teaching & Lesson Planning</span>
+        <span class="skill">MS Word</span>
+        <span class="skill">MS Excel</span>
+        <span class="skill">Canva (Design)</span>
+        <span class="skill">Public Speaking</span>
+        <span class="skill">Basic Networking</span>
+        <span class="skill">Digital Marketing</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 style="margin-top:0">Projects & Experience</h2>
+      <div class="projects">
+        <article class="project">
+          <h3 style="margin:0 0 6px">Interactive Lesson Materials (Sample)</h3>
+          <p style="margin:0;color:var(--muted)">Created printable and digital lesson materials using Canva and MS Word for primary-level classes. (Upload file links or screenshots here.)</p>
+        </article>
+
+        <article class="project">
+          <h3 style="margin:0 0 6px">School IT Support (SMK Internship)</h3>
+          <p style="margin:0;color:var(--muted)">Assisted in setting up local networks and troubleshooting classroom computers during SMK internship.</p>
+        </article>
+
+        <article class="project">
+          <h3 style="margin:0 0 6px">Public Speaking Workshop</h3>
+          <p style="margin:0;color:var(--muted)">Delivered short training on public speaking and communication to student groups.</p>
+        </article>
+      </div>
+      <p style="margin-top:10px;color:var(--muted);font-size:13px">Tip: Replace these placeholders with links to documents, PDFs, or images (Google Drive/Dropbox links recommended).</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2 style="margin-top:0">Contact</h2>
+      <p style="margin:0">Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p style="margin:6px 0 0">LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">linkedin.com/in/your-linkedin</a></p>
+      <p style="margin:6px 0 0">Portfolio (this page) — publish to get a public URL</p>
+    </section>
+
+    <footer>
+      Made with care • Replace placeholders before publishing
+    </footer>
+  </div>
+</body>
+</html>
